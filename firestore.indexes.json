@@ -1,0 +1,27 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "faq_aprendido",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "topico", "order": "ASCENDING" },
+        { "fieldPath": "vezes_perguntada", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "perguntas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "timestamp", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "respostas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "timestamp", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
